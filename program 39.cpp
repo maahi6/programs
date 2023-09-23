@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int num;
+
+	int fact = 1;
+	cout << " enter a num=" << endl;
+	cin >> num;
+	
+	for( num =10 ; num > 0 ; num--)
+	
+	  fact *= num;
+	  
+   
+   cout << "the factorial is=" << fact << endl;
+   return 0;
+   
+}
+	  
